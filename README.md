@@ -52,6 +52,7 @@ Every external dependency has a no-config fallback: the `LLMClient` interface le
 | Eval harness: LLM-as-judge + grading agreement vs. human labels | ✅ |
 | Provider-swappable LLM layer (Anthropic / Ollama) | ✅ |
 | Defensive JSON parsing with retry-once on parse failure | ✅ |
+| 9 pre-loaded seed topics across mathematics and science (EN + AR) | ✅ |
 
 ---
 
@@ -61,14 +62,15 @@ Every external dependency has a no-config fallback: the `LLMClient` interface le
 |---|---|
 | Frontend (Vercel) | https://mentoriq-ai.vercel.app |
 | Backend API (Railway) | https://celebrated-spontaneity-production-8e8a.up.railway.app |
+| Source code (GitHub) | https://github.com/umangdxb/mentoriq |
 
 ---
 
 ## Quick start
 
 ```bash
-git clone <repo-url>
-cd alef-demo
+git clone https://github.com/umangdxb/mentoriq.git
+cd mentoriq
 
 # Backend
 cp .env.example .env          # fill in OLLAMA_BASE_URL or set LLM_PROVIDER=anthropic
@@ -105,7 +107,19 @@ Returns per-criterion met/not-met notes, a weighted score (0–1), student-facin
 
 ### `GET /seeds`
 
-Pre-loaded sample content (English photosynthesis, Arabic البناء الضوئي, Arabic دورة الماء, Arabic الكسور) for live demos with no copy-paste required.
+Returns 9 pre-loaded sample topics for live demos with no copy-paste required:
+
+| Topic | Language |
+|---|---|
+| Photosynthesis | English |
+| Fractions | English |
+| Algebra — Linear Equations | English |
+| Geometry — Triangles | English |
+| Statistics — Mean, Median and Mode | English |
+| The Water Cycle | English |
+| البناء الضوئي (Photosynthesis) | Arabic |
+| دورة الماء (Water Cycle) | Arabic |
+| الكسور (Fractions) | Arabic |
 
 ### `GET /health`
 
@@ -243,8 +257,10 @@ eval/
 ### Backend → Railway
 
 1. Connect the repo; set build command `npm run build`, start command `npm start`.
-2. Set env vars: `LLM_PROVIDER=anthropic`, `ANTHROPIC_API_KEY`, `CORS_ORIGIN=<vercel-url>`.
-3. (Optional) Host Ollama on the same server and leave `LLM_PROVIDER` unset for zero API cost.
+2. Set `CORS_ORIGIN` to your Vercel frontend URL.
+3. **LLM options (pick one):**
+   - **Ollama via Cloudflare tunnel** (zero API cost): run Ollama locally, expose it with `cloudflared tunnel`, set `OLLAMA_BASE_URL=<tunnel-url>` and `OLLAMA_MODEL=phi4-mini`.
+   - **Anthropic API**: set `LLM_PROVIDER=anthropic` and `ANTHROPIC_API_KEY`.
 
 ### Frontend → Vercel
 
