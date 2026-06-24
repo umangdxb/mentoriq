@@ -1,0 +1,192 @@
+{
+  "runAt": "2026-06-24T19:57:19.379Z",
+  "questionQuality": {
+    "items": [
+      {
+        "questionId": "golden-q-1",
+        "bloom": "remember",
+        "relevance": 1,
+        "bloomMatch": 0,
+        "answerability": 1,
+        "mean": 0.6666666666666666
+      },
+      {
+        "questionId": "golden-q-2",
+        "bloom": "understand",
+        "relevance": 1,
+        "bloomMatch": 0.75,
+        "answerability": 1,
+        "mean": 0.9166666666666666
+      },
+      {
+        "questionId": "golden-q-3",
+        "bloom": "apply",
+        "relevance": 1,
+        "bloomMatch": 0.5,
+        "answerability": 1,
+        "mean": 0.8333333333333334
+      },
+      {
+        "questionId": "golden-q-4",
+        "bloom": "understand",
+        "relevance": 1,
+        "bloomMatch": 0.75,
+        "answerability": 1,
+        "mean": 0.9166666666666666
+      },
+      {
+        "questionId": "golden-q-5",
+        "bloom": "remember",
+        "relevance": 1,
+        "bloomMatch": 0,
+        "answerability": 1,
+        "mean": 0.6666666666666666
+      },
+      {
+        "questionId": "golden-q-6",
+        "bloom": "understand",
+        "relevance": 1,
+        "bloomMatch": 0.75,
+        "answerability": 1,
+        "mean": 0.9166666666666666
+      }
+    ],
+    "avgRelevance": 1,
+    "avgBloomMatch": 0.4583333333333333,
+    "avgAnswerability": 1,
+    "overall": 0.8194444444444443
+  },
+  "gradingAgreement": {
+    "items": [
+      {
+        "questionId": "golden-q-1",
+        "studentAnswer": "Plants need sunlight, water, and carbon dioxide to perform photosynthesis.",
+        "humanScore": 1,
+        "modelScore": 0,
+        "error": 1
+      },
+      {
+        "questionId": "golden-q-1",
+        "studentAnswer": "Plants only need sunlight to grow and make food.",
+        "humanScore": 0.34,
+        "modelScore": 0,
+        "error": 0.34
+      },
+      {
+        "questionId": "golden-q-1",
+        "studentAnswer": "Plants get their food from the soil and fertiliser.",
+        "humanScore": 0,
+        "modelScore": 0,
+        "error": 0
+      },
+      {
+        "questionId": "golden-q-2",
+        "studentAnswer": "Chlorophyll absorbs sunlight and uses that energy to convert water and CO2 into glucose, which is the plant's food.",
+        "humanScore": 1,
+        "modelScore": 0,
+        "error": 1
+      },
+      {
+        "questionId": "golden-q-2",
+        "studentAnswer": "Chlorophyll absorbs light from the sun. It is found in the leaves and is green.",
+        "humanScore": 0.5,
+        "modelScore": 0,
+        "error": 0.5
+      },
+      {
+        "questionId": "golden-q-2",
+        "studentAnswer": "Chlorophyll is the green colour in plants. It is not really needed for photosynthesis, it just makes plants look green.",
+        "humanScore": 0,
+        "modelScore": 0,
+        "error": 0
+      },
+      {
+        "questionId": "golden-q-3",
+        "studentAnswer": "Without light, the plant cannot do photosynthesis. This means it cannot make glucose for energy, so it will weaken and eventually die.",
+        "humanScore": 1,
+        "modelScore": 0,
+        "error": 1
+      },
+      {
+        "questionId": "golden-q-3",
+        "studentAnswer": "The plant would die because it needs sunlight to survive.",
+        "humanScore": 0.5,
+        "modelScore": 0,
+        "error": 0.5
+      },
+      {
+        "questionId": "golden-q-3",
+        "studentAnswer": "The plant would grow faster in the dark because it does not need to use energy on light.",
+        "humanScore": 0,
+        "modelScore": 0,
+        "error": 0
+      },
+      {
+        "questionId": "golden-q-4",
+        "studentAnswer": "During evaporation, the sun heats the surface water in oceans and lakes, turning the liquid water into water vapour that rises into the air.",
+        "humanScore": 1,
+        "modelScore": 0,
+        "error": 1
+      },
+      {
+        "questionId": "golden-q-4",
+        "studentAnswer": "Evaporation is when water turns into vapour and goes up into the sky.",
+        "humanScore": 0.5,
+        "modelScore": 0,
+        "error": 0.5
+      },
+      {
+        "questionId": "golden-q-4",
+        "studentAnswer": "Evaporation is when it rains and water falls from the clouds to the ground.",
+        "humanScore": 0,
+        "modelScore": 0,
+        "error": 0
+      },
+      {
+        "questionId": "golden-q-5",
+        "studentAnswer": "تحتاج النبتة إلى ضوء الشمس والماء وثاني أكسيد الكربون لإجراء عملية البناء الضوئي.",
+        "humanScore": 1,
+        "modelScore": 0,
+        "error": 1
+      },
+      {
+        "questionId": "golden-q-5",
+        "studentAnswer": "تحتاج النبتة إلى ضوء الشمس فقط.",
+        "humanScore": 0.34,
+        "modelScore": 0,
+        "error": 0.34
+      },
+      {
+        "questionId": "golden-q-5",
+        "studentAnswer": "تحتاج النبتة إلى السماد والتربة والهواء فقط للنمو.",
+        "humanScore": 0,
+        "modelScore": 0,
+        "error": 0
+      },
+      {
+        "questionId": "golden-q-6",
+        "studentAnswer": "التبخر هو العملية التي تُسخّن فيها الشمس الماء السائل الموجود في البحار والأنهار فيتحول إلى بخار ماء يرتفع إلى الغلاف الجوي.",
+        "humanScore": 1,
+        "modelScore": 0,
+        "error": 1
+      },
+      {
+        "questionId": "golden-q-6",
+        "studentAnswer": "التبخر يعني أن الماء يتحول إلى بخار ويصعد إلى الأعلى.",
+        "humanScore": 0.5,
+        "modelScore": 0,
+        "error": 0.5
+      },
+      {
+        "questionId": "golden-q-6",
+        "studentAnswer": "التبخر هو عندما يسقط المطر من السحاب إلى الأرض.",
+        "humanScore": 0,
+        "modelScore": 0,
+        "error": 0
+      }
+    ],
+    "mae": 0.4822222222222222,
+    "within02": 0.3333333333333333,
+    "count": 18
+  }
+}

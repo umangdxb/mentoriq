@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "content": {
+        "id": "golden-c-photo-en",
+        "text": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of glucose. Chlorophyll, found in chloroplasts, captures light energy. The process has two main stages: the light-dependent reactions, which occur in the thylakoid membranes and produce ATP and NADPH, and the Calvin cycle, which occurs in the stroma and uses that energy to build glucose molecules.",
+        "lang": "en"
+      },
+      "question": {
+        "id": "golden-q-1",
+        "contentId": "golden-c-photo-en",
+        "bloom": "remember",
+        "lang": "en",
+        "prompt": "What are the three inputs that plants require for photosynthesis?",
+        "rubric": [
+          { "id": "r-1-1", "description": "Identifies sunlight as an input", "weight": 0.34 },
+          { "id": "r-1-2", "description": "Identifies water as an input", "weight": 0.33 },
+          { "id": "r-1-3", "description": "Identifies carbon dioxide as an input", "weight": 0.33 }
+        ],
+        "modelAnswer": "Plants require sunlight, water, and carbon dioxide to carry out photosynthesis."
+      },
+      "studentAnswers": [
+        { "text": "Plants need sunlight, water, and carbon dioxide to perform photosynthesis.", "humanScore": 1.0 },
+        { "text": "Plants only need sunlight to grow and make food.", "humanScore": 0.34 },
+        { "text": "Plants get their food from the soil and fertiliser.", "humanScore": 0.0 }
+      ]
+    },
+    {
+      "content": {
+        "id": "golden-c-photo-en",
+        "text": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of glucose. Chlorophyll, found in chloroplasts, captures light energy. The process has two main stages: the light-dependent reactions, which occur in the thylakoid membranes and produce ATP and NADPH, and the Calvin cycle, which occurs in the stroma and uses that energy to build glucose molecules.",
+        "lang": "en"
+      },
+      "question": {
+        "id": "golden-q-2",
+        "contentId": "golden-c-photo-en",
+        "bloom": "understand",
+        "lang": "en",
+        "prompt": "In your own words, explain why chlorophyll is essential for photosynthesis.",
+        "rubric": [
+          { "id": "r-2-1", "description": "States that chlorophyll captures or absorbs light energy", "weight": 0.5 },
+          { "id": "r-2-2", "description": "Explains that this enables the plant to convert light into chemical energy (glucose)", "weight": 0.5 }
+        ],
+        "modelAnswer": "Chlorophyll is the pigment in chloroplasts that absorbs light energy from the sun. Without it, the plant cannot capture the energy needed to drive the chemical reactions that produce glucose."
+      },
+      "studentAnswers": [
+        { "text": "Chlorophyll absorbs sunlight and uses that energy to convert water and CO2 into glucose, which is the plant's food.", "humanScore": 1.0 },
+        { "text": "Chlorophyll absorbs light from the sun. It is found in the leaves and is green.", "humanScore": 0.5 },
+        { "text": "Chlorophyll is the green colour in plants. It is not really needed for photosynthesis, it just makes plants look green.", "humanScore": 0.0 }
+      ]
+    },
+    {
+      "content": {
+        "id": "golden-c-photo-en",
+        "text": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of glucose. Chlorophyll, found in chloroplasts, captures light energy. The process has two main stages: the light-dependent reactions, which occur in the thylakoid membranes and produce ATP and NADPH, and the Calvin cycle, which occurs in the stroma and uses that energy to build glucose molecules.",
+        "lang": "en"
+      },
+      "question": {
+        "id": "golden-q-3",
+        "contentId": "golden-c-photo-en",
+        "bloom": "apply",
+        "lang": "en",
+        "prompt": "What would happen to a plant kept in complete darkness for several weeks? Use what you know about photosynthesis to explain.",
+        "rubric": [
+          { "id": "r-3-1", "description": "States that photosynthesis cannot occur without light", "weight": 0.5 },
+          { "id": "r-3-2", "description": "Concludes the plant would weaken or die because it cannot produce glucose", "weight": 0.5 }
+        ],
+        "modelAnswer": "Without light, the plant cannot perform photosynthesis, so it cannot produce glucose. With no energy source, the plant will gradually weaken and eventually die."
+      },
+      "studentAnswers": [
+        { "text": "Without light, the plant cannot do photosynthesis. This means it cannot make glucose for energy, so it will weaken and eventually die.", "humanScore": 1.0 },
+        { "text": "The plant would die because it needs sunlight to survive.", "humanScore": 0.5 },
+        { "text": "The plant would grow faster in the dark because it does not need to use energy on light.", "humanScore": 0.0 }
+      ]
+    },
+    {
+      "content": {
+        "id": "golden-c-water-en",
+        "text": "The water cycle describes the continuous movement of water on, above, and below Earth's surface. Water evaporates from oceans, lakes, and rivers when heated by the sun, turning into water vapour. The vapour rises, cools, and condenses to form clouds. When water droplets in clouds become heavy enough, they fall as precipitation — rain or snow. This water collects in bodies of water or soaks into the ground as groundwater, and the cycle begins again.",
+        "lang": "en"
+      },
+      "question": {
+        "id": "golden-q-4",
+        "contentId": "golden-c-water-en",
+        "bloom": "understand",
+        "lang": "en",
+        "prompt": "Explain what happens during the evaporation stage of the water cycle.",
+        "rubric": [
+          { "id": "r-4-1", "description": "States that liquid water is converted into water vapour", "weight": 0.5 },
+          { "id": "r-4-2", "description": "Identifies the sun's heat as the driving force", "weight": 0.5 }
+        ],
+        "modelAnswer": "During evaporation, liquid water from oceans, lakes, and rivers is heated by the sun and transformed into water vapour, which rises into the atmosphere."
+      },
+      "studentAnswers": [
+        { "text": "During evaporation, the sun heats the surface water in oceans and lakes, turning the liquid water into water vapour that rises into the air.", "humanScore": 1.0 },
+        { "text": "Evaporation is when water turns into vapour and goes up into the sky.", "humanScore": 0.5 },
+        { "text": "Evaporation is when it rains and water falls from the clouds to the ground.", "humanScore": 0.0 }
+      ]
+    },
+    {
+      "content": {
+        "id": "golden-c-photo-ar",
+        "text": "البناء الضوئي هو العملية التي تستخدمها النباتات الخضراء لتحويل الطاقة الضوئية إلى طاقة كيميائية مخزّنة. تمتص النباتات ثاني أكسيد الكربون من الهواء والماء من التربة، وبمساعدة ضوء الشمس والكلوروفيل الموجود في البلاستيدات الخضراء، تنتج الجلوكوز والأكسجين. تنقسم عملية البناء الضوئي إلى مرحلتين رئيسيتين: التفاعلات الضوئية التي تحدث في الأغشية الثايلاكويدية وتنتج ATP وNADPH، ودورة كالفن التي تحدث في السدى وتستخدم تلك الطاقة لبناء جزيئات الجلوكوز.",
+        "lang": "ar"
+      },
+      "question": {
+        "id": "golden-q-5",
+        "contentId": "golden-c-photo-ar",
+        "bloom": "remember",
+        "lang": "ar",
+        "prompt": "ما هي المواد الثلاثة التي تحتاجها النبتة لإجراء عملية البناء الضوئي؟",
+        "rubric": [
+          { "id": "r-5-1", "description": "يذكر ضوء الشمس كمدخل للعملية", "weight": 0.34 },
+          { "id": "r-5-2", "description": "يذكر الماء كمدخل للعملية", "weight": 0.33 },
+          { "id": "r-5-3", "description": "يذكر ثاني أكسيد الكربون كمدخل للعملية", "weight": 0.33 }
+        ],
+        "modelAnswer": "تحتاج النبتة إلى ضوء الشمس والماء وثاني أكسيد الكربون لإجراء عملية البناء الضوئي."
+      },
+      "studentAnswers": [
+        { "text": "تحتاج النبتة إلى ضوء الشمس والماء وثاني أكسيد الكربون لإجراء عملية البناء الضوئي.", "humanScore": 1.0 },
+        { "text": "تحتاج النبتة إلى ضوء الشمس فقط.", "humanScore": 0.34 },
+        { "text": "تحتاج النبتة إلى السماد والتربة والهواء فقط للنمو.", "humanScore": 0.0 }
+      ]
+    },
+    {
+      "content": {
+        "id": "golden-c-water-ar",
+        "text": "دورة الماء هي الحركة المستمرة للماء على سطح الأرض وفي الغلاف الجوي. تبدأ الدورة بالتبخر، حيث تتحول المياه من سطح البحار والمحيطات والأنهار إلى بخار ماء بفعل حرارة الشمس. يرتفع البخار إلى الغلاف الجوي ويبرد ليتكثف ويُشكّل السحاب. عندما تثقل قطرات الماء داخل السحاب، تسقط على شكل هطول مطري أو ثلجي. يتجمع الماء في الأنهار والبحيرات ويتسرب إلى باطن الأرض لتتجدد المياه الجوفية، ثم تبدأ الدورة من جديد.",
+        "lang": "ar"
+      },
+      "question": {
+        "id": "golden-q-6",
+        "contentId": "golden-c-water-ar",
+        "bloom": "understand",
+        "lang": "ar",
+        "prompt": "اشرح بكلماتك الخاصة ما الذي يحدث أثناء مرحلة التبخر في دورة الماء.",
+        "rubric": [
+          { "id": "r-6-1", "description": "يوضح أن الماء السائل يتحول إلى بخار ماء", "weight": 0.5 },
+          { "id": "r-6-2", "description": "يذكر أن حرارة الشمس هي المحرك لهذه العملية", "weight": 0.5 }
+        ],
+        "modelAnswer": "خلال مرحلة التبخر، تُسخّن الشمس سطح الماء في البحار والأنهار، فيتحول الماء السائل إلى بخار ماء يرتفع إلى الغلاف الجوي."
+      },
+      "studentAnswers": [
+        { "text": "التبخر هو العملية التي تُسخّن فيها الشمس الماء السائل الموجود في البحار والأنهار فيتحول إلى بخار ماء يرتفع إلى الغلاف الجوي.", "humanScore": 1.0 },
+        { "text": "التبخر يعني أن الماء يتحول إلى بخار ويصعد إلى الأعلى.", "humanScore": 0.5 },
+        { "text": "التبخر هو عندما يسقط المطر من السحاب إلى الأرض.", "humanScore": 0.0 }
+      ]
+    }
+  ]
+}
