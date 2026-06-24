@@ -59,7 +59,7 @@ Every external dependency has a no-config fallback: the `LLMClient` interface le
 
 | Service | URL |
 |---|---|
-| Frontend (Vercel) | https://client-puce-ten-37.vercel.app |
+| Frontend (Vercel) | https://mentoriq-ai.vercel.app |
 | Backend API (Railway) | https://celebrated-spontaneity-production-8e8a.up.railway.app |
 
 ---
